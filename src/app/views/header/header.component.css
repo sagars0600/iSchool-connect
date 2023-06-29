@@ -1,0 +1,44 @@
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+  pointer-events: none;
+}
+
+.nav-item {
+  font-weight: 500;
+  font-size: 1.1rem;
+  font-size: 16px;
+}
+
+li.nav-item {
+  margin: 0 20px 0 0;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: dodgerblue;
+}
+
+.btn-primary {
+  background-color: dodgerblue;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-bottom: 1px;
+}
+.dropdown-toggle {
+  font-weight: 500;
+}
+.dropdown-toggle:hover {
+  color: dodgerblue;
+}
+
+.btn-register {
+  background-color: dodgerblue;
+  color: white;
+}

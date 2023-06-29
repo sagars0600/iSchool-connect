@@ -1,0 +1,1061 @@
+{
+  "message": "Successfully fetched the search results.",
+  "data": {
+    "results": [
+      {
+        "id": "5f044f11a55e24365a723606",
+        "slug": "harvard-university",
+        "name": "Harvard University",
+        "campus_name": null,
+        "is_main_campus": true,
+        "logo": "https://cdn.ischoolconnect.com/logo/1313.png",
+        "address": {
+          "city": "Cambridge",
+          "state": "Massachusetts",
+          "country": "United States of America",
+          "country_code": "USA"
+        },
+        "is_partner": false,
+        "account_info": {
+          "partnership_type": []
+        },
+        "rank": {
+          "isc_regional": {
+            "min": 1,
+            "max": 1
+          },
+          "isc_global": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        "stats": {
+          "acceptance_rate": 5,
+          "grad_kaplan_english_level": 0,
+          "undergrad_kaplan_english_level": 0
+        },
+        "courses_count": 475,
+        "courses": [
+          {
+            "school_id": "5f4fe399a0d2ed982b418859",
+            "course_id": "5f4fe7626a74ae9b63277a7f",
+            "school_name": "Main",
+            "school_slug": "harvard-university-main",
+            "name": "Psychology",
+            "degree": ["Bachelors"],
+            "tuition": {
+              "currency": "USD",
+              "value": 49653
+            },
+            "sacm_approved": true,
+            "duration": 1460,
+            "application_deadlines": [
+              {
+                "year": 2023,
+                "months": []
+              },
+              {
+                "year": 2024,
+                "months": [3]
+              },
+              {
+                "year": 2025,
+                "months": [3]
+              },
+              {
+                "year": 2026,
+                "months": [3]
+              }
+            ],
+            "has_applied": false,
+            "is_application_deletable": false,
+            "is_shortlisted": false
+          },
+          {
+            "school_id": "5f4fe399a0d2ed982b418859",
+            "course_id": "5f4fe7626a74ae9b63277a80",
+            "school_name": "Main",
+            "school_slug": "harvard-university-main",
+            "name": "Psychology - General",
+            "degree": ["Bachelors"],
+            "tuition": {
+              "currency": "USD",
+              "value": 49653
+            },
+            "sacm_approved": false,
+            "duration": 1460,
+            "application_deadlines": [
+              {
+                "year": 2023,
+                "months": []
+              },
+              {
+                "year": 2024,
+                "months": [3]
+              },
+              {
+                "year": 2025,
+                "months": [3]
+              },
+              {
+                "year": 2026,
+                "months": [3]
+              }
+            ],
+            "has_applied": false,
+            "is_application_deletable": false,
+            "is_shortlisted": false
+          }
+        ]
+      },
+      {
+        "id": "5f044f13a55e24365a7238a4",
+        "slug": "stanford-university",
+        "name": "Stanford University",
+        "campus_name": null,
+        "is_main_campus": true,
+        "logo": "https://cdn.ischoolconnect.com/logo/1991.png",
+        "address": {
+          "city": "Stanford",
+          "state": "California",
+          "country": "United States of America",
+          "country_code": "USA"
+        },
+        "is_partner": false,
+        "account_info": {
+          "partnership_type": []
+        },
+        "rank": {
+          "isc_regional": {
+            "min": 2,
+            "max": 2
+          },
+          "isc_global": {
+            "min": 2,
+            "max": 2
+          }
+        },
+        "stats": {
+          "acceptance_rate": 5,
+          "grad_kaplan_english_level": 0,
+          "undergrad_kaplan_english_level": 0
+        },
+        "courses_count": 281,
+        "courses": [
+          {
+            "school_id": "5f9152777d63df84c2c60bb9",
+            "course_id": "61f13f27ad01250c24326e9e",
+            "school_name": "School of Humanities and Sciences",
+            "school_slug": "stanford-university-school-of-humanities-and-sciences",
+            "name": "History - Public History / Public Service",
+            "degree": ["Bachelors"],
+            "tuition": {
+              "currency": "USD",
+              "value": 18491
+            },
+            "sacm_approved": true,
+            "application_deadlines": [
+              {
+                "year": 2023,
+                "months": []
+              },
+              {
+                "year": 2024,
+                "months": [9]
+              },
+              {
+                "year": 2025,
+                "months": [9]
+              },
+              {
+                "year": 2026,
+                "months": [9]
+              }
+            ],
+            "has_applied": false,
+            "is_application_deletable": false,
+            "is_shortlisted": false
+          },
+          {
+            "school_id": "5f9152777d63df84c2c60bb9",
+            "course_id": "61f13f27ad01250c24326ea2",
+            "school_name": "School of Humanities and Sciences",
+            "school_slug": "stanford-university-school-of-humanities-and-sciences",
+            "name": "International Relations - Comparative International Governance",
+            "degree": ["Bachelors"],
+            "tuition": {
+              "currency": "USD",
+              "value": 18491
+            },
+            "sacm_approved": true,
+            "application_deadlines": [
+              {
+                "year": 2023,
+                "months": []
+              },
+              {
+                "year": 2024,
+                "months": [9]
+              },
+              {
+                "year": 2025,
+                "months": [9]
+              },
+              {
+                "year": 2026,
+                "months": [9]
+              }
+            ],
+            "has_applied": false,
+            "is_application_deletable": false,
+            "is_shortlisted": false
+          }
+        ]
+      },
+      {
+        "id": "6200ed1f2249580163d855ba",
+        "slug": "aalto-university-otaniemi",
+        "name": "Aalto University",
+        "campus_name": "Otaniemi",
+        "is_main_campus": true,
+        "logo": "https://cdn.ischoolconnect.com/logo/6797.png",
+        "address": {
+          "city": "Espoo",
+          "state": "Southern Finland",
+          "country": "Finland",
+          "country_code": "FIN"
+        },
+        "is_partner": true,
+        "account_info": {
+          "partnership_type": ["PARTNER"]
+        },
+        "rank": {
+          "isc_regional": {
+            "min": 301,
+            "max": 400
+          },
+          "isc_global": {
+            "min": 2,
+            "max": 2
+          }
+        },
+        "stats": {
+          "acceptance_rate": null,
+          "grad_kaplan_english_level": 0,
+          "undergrad_kaplan_english_level": 0
+        },
+        "courses_count": 119,
+        "courses": [
+          {
+            "school_id": "62012b262249580163e63838",
+            "course_id": "649bddf7f3d528b142851e18",
+            "school_name": "School of Engineering",
+            "school_slug": "aalto-university-otaniemi-school-of-engineering",
+            "name": "Geoinformatics",
+            "degree": ["Masters"],
+            "tuition": {
+              "currency": "EUR",
+              "value": 15000
+            },
+            "sacm_approved": true,
+            "duration": 730,
+            "application_deadlines": [
+              {
+                "year": 2023,
+                "months": []
+              },
+              {
+                "year": 2024,
+                "months": [12]
+              },
+              {
+                "year": 2025,
+                "months": [12]
+              },
+              {
+                "year": 2026,
+                "months": [12]
+              }
+            ],
+            "has_applied": false,
+            "is_application_deletable": false,
+            "is_shortlisted": false
+          },
+          {
+            "school_id": "62012b262249580163e63838",
+            "course_id": "649bddf7f3d528b142851e1a",
+            "school_name": "School of Engineering",
+            "school_slug": "aalto-university-otaniemi-school-of-engineering",
+            "name": "Real Estate Economics",
+            "degree": ["Masters"],
+            "tuition": {
+              "currency": "EUR",
+              "value": 15000
+            },
+            "sacm_approved": true,
+            "duration": 730,
+            "application_deadlines": [
+              {
+                "year": 2023,
+                "months": []
+              },
+              {
+                "year": 2024,
+                "months": [12]
+              },
+              {
+                "year": 2025,
+                "months": [12]
+              },
+              {
+                "year": 2026,
+                "months": [12]
+              }
+            ],
+            "has_applied": false,
+            "is_application_deletable": false,
+            "is_shortlisted": false
+          }
+        ]
+      },
+      {
+        "id": "5f044f11a55e24365a7236f7",
+        "slug": "massachusetts-institute-of-technology",
+        "name": "Massachusetts Institute of Technology",
+        "campus_name": null,
+        "is_main_campus": true,
+        "logo": "https://cdn.ischoolconnect.com/logo/1555.png",
+        "address": {
+          "city": "Cambridge",
+          "state": "Massachusetts",
+          "country": "United States of America",
+          "country_code": "USA"
+        },
+        "is_partner": false,
+        "account_info": {
+          "partnership_type": []
+        },
+        "rank": {
+          "isc_regional": {
+            "min": 3,
+            "max": 3
+          },
+          "isc_global": {
+            "min": 3,
+            "max": 3
+          }
+        },
+        "stats": {
+          "acceptance_rate": 4,
+          "grad_kaplan_english_level": 0,
+          "undergrad_kaplan_english_level": 0
+        },
+        "courses_count": 209,
+        "courses": [
+          {
+            "school_id": "5f4fe399a0d2ed982b41880f",
+            "course_id": "5f04597523831b3f8273af2a",
+            "school_name": "School of Architecture and Planning",
+            "school_slug": "massachusetts-institute-of-technology-school-of-architecture-and-planning",
+            "name": "Architecture",
+            "degree": ["Masters"],
+            "tuition": {
+              "currency": "USD",
+              "value": 28795
+            },
+            "sacm_approved": true,
+            "application_deadlines": [
+              {
+                "year": 2023,
+                "months": []
+              },
+              {
+                "year": 2024,
+                "months": [9]
+              },
+              {
+                "year": 2025,
+                "months": [9]
+              },
+              {
+                "year": 2026,
+                "months": [9]
+              }
+            ],
+            "has_applied": false,
+            "is_application_deletable": false,
+            "is_shortlisted": false
+          },
+          {
+            "school_id": "5f4fe399a0d2ed982b41880f",
+            "course_id": "5f04597523831b3f8273af2b",
+            "school_name": "School of Architecture and Planning",
+            "school_slug": "massachusetts-institute-of-technology-school-of-architecture-and-planning",
+            "name": "Real Estate Development",
+            "degree": ["Masters"],
+            "tuition": {
+              "currency": "USD",
+              "value": 28795
+            },
+            "sacm_approved": true,
+            "application_deadlines": [
+              {
+                "year": 2023,
+                "months": []
+              },
+              {
+                "year": 2024,
+                "months": [9]
+              },
+              {
+                "year": 2025,
+                "months": [9]
+              },
+              {
+                "year": 2026,
+                "months": [9]
+              }
+            ],
+            "has_applied": false,
+            "is_application_deletable": false,
+            "is_shortlisted": false
+          }
+        ]
+      },
+      {
+        "id": "5f044f14a55e24365a723981",
+        "slug": "university-of-cambridge",
+        "name": "University of Cambridge",
+        "campus_name": null,
+        "is_main_campus": true,
+        "logo": "https://cdn.ischoolconnect.com/logo/2219.png",
+        "address": {
+          "city": "Cambridge",
+          "state": "Cambridgeshire",
+          "country": "United Kingdom",
+          "country_code": "GBR"
+        },
+        "is_partner": true,
+        "account_info": {
+          "partnership_type": ["PARTNER"]
+        },
+        "rank": {
+          "isc_regional": {
+            "min": 1,
+            "max": 1
+          },
+          "isc_global": {
+            "min": 4,
+            "max": 4
+          }
+        },
+        "stats": {
+          "acceptance_rate": 21,
+          "grad_kaplan_english_level": 0,
+          "undergrad_kaplan_english_level": 0
+        },
+        "courses_count": 331,
+        "courses": [
+          {
+            "school_id": "5fec941ab4651e443c847eff",
+            "course_id": "5feca12fb4651e443c8d5ef2",
+            "school_name": "Queens' College",
+            "school_slug": "university-of-cambridge-queens-college",
+            "name": "Computer Science",
+            "degree": ["Masters"],
+            "tuition": {
+              "currency": "GBP",
+              "value": 37293
+            },
+            "sacm_approved": false,
+            "duration": 1460,
+            "application_deadlines": [
+              {
+                "year": 2023,
+                "months": [12]
+              },
+              {
+                "year": 2024,
+                "months": [12]
+              },
+              {
+                "year": 2025,
+                "months": [12]
+              },
+              {
+                "year": 2026,
+                "months": [12]
+              }
+            ],
+            "has_applied": false,
+            "is_application_deletable": false,
+            "is_shortlisted": false
+          },
+          {
+            "school_id": "5fec941ab4651e443c847eff",
+            "course_id": "5feca12fb4651e443c8d5ef3",
+            "school_name": "Queens' College",
+            "school_slug": "university-of-cambridge-queens-college",
+            "name": "Economics",
+            "degree": ["Bachelors"],
+            "tuition": {
+              "currency": "GBP",
+              "value": 24507
+            },
+            "sacm_approved": false,
+            "duration": 1095,
+            "application_deadlines": [
+              {
+                "year": 2023,
+                "months": [12]
+              },
+              {
+                "year": 2024,
+                "months": [12]
+              },
+              {
+                "year": 2025,
+                "months": [12]
+              },
+              {
+                "year": 2026,
+                "months": [12]
+              }
+            ],
+            "has_applied": false,
+            "is_application_deletable": false,
+            "is_shortlisted": false
+          }
+        ]
+      },
+      {
+        "id": "5f044f14a55e24365a723978",
+        "slug": "university-of-california-berkeley",
+        "name": "University of California",
+        "campus_name": "Berkeley",
+        "is_main_campus": true,
+        "logo": "https://cdn.ischoolconnect.com/logo/2210.png",
+        "address": {
+          "city": "Berkeley",
+          "state": "California",
+          "country": "United States of America",
+          "country_code": "USA"
+        },
+        "is_partner": false,
+        "account_info": {
+          "partnership_type": []
+        },
+        "rank": {
+          "isc_regional": {
+            "min": 4,
+            "max": 4
+          },
+          "isc_global": {
+            "min": 5,
+            "max": 5
+          }
+        },
+        "stats": {
+          "acceptance_rate": 14,
+          "grad_kaplan_english_level": 0,
+          "undergrad_kaplan_english_level": 0
+        },
+        "courses_count": 347,
+        "courses": [
+          {
+            "school_id": "5f044f8757ca2a36c1df658b",
+            "course_id": "5f4fe7626a74ae9b63277a88",
+            "school_name": "Main",
+            "school_slug": "university-of-california-berkeley-main",
+            "name": "Psychology",
+            "degree": ["Bachelors"],
+            "tuition": {
+              "currency": "USD",
+              "value": 41196
+            },
+            "sacm_approved": true,
+            "duration": 1460,
+            "application_deadlines": [
+              {
+                "year": 2023,
+                "months": []
+              },
+              {
+                "year": 2024,
+                "months": [9]
+              },
+              {
+                "year": 2025,
+                "months": [9]
+              },
+              {
+                "year": 2026,
+                "months": [9]
+              }
+            ],
+            "has_applied": false,
+            "is_application_deletable": false,
+            "is_shortlisted": false
+          },
+          {
+            "school_id": "5f044f8757ca2a36c1df658b",
+            "course_id": "621473a432aec7722c830388",
+            "school_name": "Main",
+            "school_slug": "university-of-california-berkeley-main",
+            "name": "Development Engineering",
+            "degree": ["Masters"],
+            "tuition": {
+              "currency": "USD",
+              "value": 28000
+            },
+            "sacm_approved": true,
+            "application_deadlines": [
+              {
+                "year": 2023,
+                "months": []
+              },
+              {
+                "year": 2024,
+                "months": [9]
+              },
+              {
+                "year": 2025,
+                "months": [9]
+              },
+              {
+                "year": 2026,
+                "months": [9]
+              }
+            ],
+            "has_applied": false,
+            "is_application_deletable": false,
+            "is_shortlisted": false
+          }
+        ]
+      },
+      {
+        "id": "5f044f12a55e24365a7237e3",
+        "slug": "princeton-university",
+        "name": "Princeton University",
+        "campus_name": null,
+        "is_main_campus": true,
+        "logo": "https://cdn.ischoolconnect.com/logo/1796.png",
+        "address": {
+          "city": "Princeton",
+          "state": "New Jersey",
+          "country": "United States of America",
+          "country_code": "USA"
+        },
+        "is_partner": false,
+        "account_info": {
+          "partnership_type": []
+        },
+        "rank": {
+          "isc_regional": {
+            "min": 0,
+            "max": 0
+          },
+          "isc_global": {
+            "min": 6,
+            "max": 6
+          }
+        },
+        "stats": {
+          "acceptance_rate": 6.4,
+          "grad_kaplan_english_level": 0,
+          "undergrad_kaplan_english_level": 0
+        },
+        "courses_count": 115,
+        "courses": [
+          {
+            "school_id": "5f4fe399a0d2ed982b41880a",
+            "course_id": "5f04598723831b3f8273c789",
+            "school_name": "The Graduate School",
+            "school_slug": "princeton-university-the-graduate-school",
+            "name": "Finance",
+            "degree": ["Masters"],
+            "tuition": {
+              "currency": "USD",
+              "value": 57410
+            },
+            "sacm_approved": true,
+            "duration": 730,
+            "application_deadlines": [
+              {
+                "year": 2023,
+                "months": []
+              },
+              {
+                "year": 2024,
+                "months": [9]
+              },
+              {
+                "year": 2025,
+                "months": [9]
+              },
+              {
+                "year": 2026,
+                "months": [9]
+              }
+            ],
+            "has_applied": false,
+            "is_application_deletable": false,
+            "is_shortlisted": false
+          },
+          {
+            "school_id": "5f4fe399a0d2ed982b41880a",
+            "course_id": "5f04598723831b3f8273c78a",
+            "school_name": "The Graduate School",
+            "school_slug": "princeton-university-the-graduate-school",
+            "name": "Chemistry",
+            "degree": ["Masters"],
+            "tuition": {
+              "currency": "USD",
+              "value": 57410
+            },
+            "sacm_approved": true,
+            "application_deadlines": [
+              {
+                "year": 2023,
+                "months": []
+              },
+              {
+                "year": 2024,
+                "months": [9]
+              },
+              {
+                "year": 2025,
+                "months": [9]
+              },
+              {
+                "year": 2026,
+                "months": [9]
+              }
+            ],
+            "has_applied": false,
+            "is_application_deletable": false,
+            "is_shortlisted": false
+          }
+        ]
+      },
+      {
+        "id": "5f044f11a55e24365a72351a",
+        "slug": "columbia-university-new-york",
+        "name": "Columbia University",
+        "campus_name": "New York",
+        "is_main_campus": true,
+        "logo": "https://cdn.ischoolconnect.com/logo/1053.png",
+        "address": {
+          "city": "New York City",
+          "state": "New York",
+          "country": "United States of America",
+          "country_code": "USA"
+        },
+        "is_partner": false,
+        "account_info": {
+          "partnership_type": []
+        },
+        "rank": {
+          "isc_regional": {
+            "min": 6,
+            "max": 6
+          },
+          "isc_global": {
+            "min": 8,
+            "max": 8
+          }
+        },
+        "stats": {
+          "acceptance_rate": 7,
+          "grad_kaplan_english_level": 0,
+          "undergrad_kaplan_english_level": 0
+        },
+        "courses_count": 449,
+        "courses": [
+          {
+            "school_id": "5f4fe398a0d2ed982b41868d",
+            "course_id": "5f04599223831b3f8273cdb2",
+            "school_name": "College of Dental Medicine",
+            "school_slug": "columbia-university-new-york-college-of-dental-medicine",
+            "name": "Business Administration and Dental and Oral Surgery",
+            "degree": ["Masters", "Doctorate"],
+            "tuition": {
+              "currency": "USD",
+              "value": 0
+            },
+            "sacm_approved": false,
+            "application_deadlines": [
+              {
+                "year": 2023,
+                "months": []
+              },
+              {
+                "year": 2024,
+                "months": [9]
+              },
+              {
+                "year": 2025,
+                "months": [9]
+              },
+              {
+                "year": 2026,
+                "months": [9]
+              }
+            ],
+            "has_applied": false,
+            "is_application_deletable": false,
+            "is_shortlisted": false
+          },
+          {
+            "school_id": "5f4fe398a0d2ed982b41868e",
+            "course_id": "5f04599223831b3f8273cca1",
+            "school_name": "Columbia Business School",
+            "school_slug": "columbia-university-new-york-columbia-business-school",
+            "name": "Business Administration and Social Work",
+            "degree": ["Masters"],
+            "tuition": {
+              "currency": "USD",
+              "value": 77376
+            },
+            "sacm_approved": true,
+            "duration": 730,
+            "application_deadlines": [
+              {
+                "year": 2023,
+                "months": []
+              },
+              {
+                "year": 2024,
+                "months": [8, 1]
+              },
+              {
+                "year": 2025,
+                "months": [8, 1]
+              },
+              {
+                "year": 2026,
+                "months": [8, 1]
+              }
+            ],
+            "has_applied": false,
+            "is_application_deletable": false,
+            "is_shortlisted": false
+          }
+        ]
+      },
+      {
+        "id": "5f044f10a55e24365a7234a0",
+        "slug": "california-institute-of-technology",
+        "name": "California Institute of Technology",
+        "campus_name": null,
+        "is_main_campus": true,
+        "logo": "https://cdn.ischoolconnect.com/logo/930.png",
+        "address": {
+          "city": "Pasadena",
+          "state": "California",
+          "country": "United States of America",
+          "country_code": "USA"
+        },
+        "is_partner": false,
+        "account_info": {
+          "partnership_type": []
+        },
+        "rank": {
+          "isc_regional": {
+            "min": 7,
+            "max": 7
+          },
+          "isc_global": {
+            "min": 9,
+            "max": 9
+          }
+        },
+        "stats": {
+          "acceptance_rate": 6.7,
+          "grad_kaplan_english_level": 0,
+          "undergrad_kaplan_english_level": 0
+        },
+        "courses_count": 72,
+        "courses": [
+          {
+            "school_id": "5f4fe399a0d2ed982b4188bd",
+            "course_id": "5f04593b23831b3f82736c9f",
+            "school_name": "Division of Biology and Biological Engineering",
+            "school_slug": "california-institute-of-technology-division-of-biology-and-biological-engineering",
+            "name": "Bioengineering",
+            "degree": ["Bachelors"],
+            "tuition": {
+              "currency": "USD",
+              "value": 58479
+            },
+            "sacm_approved": true,
+            "application_deadlines": [
+              {
+                "year": 2023,
+                "months": []
+              },
+              {
+                "year": 2024,
+                "months": [9]
+              },
+              {
+                "year": 2025,
+                "months": [9]
+              },
+              {
+                "year": 2026,
+                "months": [9]
+              }
+            ],
+            "has_applied": false,
+            "is_application_deletable": false,
+            "is_shortlisted": false
+          },
+          {
+            "school_id": "5f4fe399a0d2ed982b4188bd",
+            "course_id": "5f04593b23831b3f82736ca0",
+            "school_name": "Division of Biology and Biological Engineering",
+            "school_slug": "california-institute-of-technology-division-of-biology-and-biological-engineering",
+            "name": "Biology",
+            "degree": ["Bachelors"],
+            "tuition": {
+              "currency": "USD",
+              "value": 58479
+            },
+            "sacm_approved": true,
+            "application_deadlines": [
+              {
+                "year": 2023,
+                "months": []
+              },
+              {
+                "year": 2024,
+                "months": [9]
+              },
+              {
+                "year": 2025,
+                "months": [9]
+              },
+              {
+                "year": 2026,
+                "months": [9]
+              }
+            ],
+            "has_applied": false,
+            "is_application_deletable": false,
+            "is_shortlisted": false
+          }
+        ]
+      },
+      {
+        "id": "5f044f14a55e24365a723a2d",
+        "slug": "university-of-oxford",
+        "name": "University of Oxford",
+        "campus_name": null,
+        "is_main_campus": true,
+        "logo": "https://cdn.ischoolconnect.com/logo/2408.png",
+        "address": {
+          "city": "Oxford",
+          "state": "Oxfordshire",
+          "country": "United Kingdom",
+          "country_code": "GBR"
+        },
+        "is_partner": false,
+        "account_info": {
+          "partnership_type": []
+        },
+        "rank": {
+          "isc_regional": {
+            "min": 2,
+            "max": 2
+          },
+          "isc_global": {
+            "min": 9,
+            "max": 9
+          }
+        },
+        "stats": {
+          "acceptance_rate": 17.5,
+          "grad_kaplan_english_level": 0,
+          "undergrad_kaplan_english_level": 0
+        },
+        "courses_count": 229,
+        "courses": [
+          {
+            "school_id": "5fb4d86d5f100d108f58740d",
+            "course_id": "5fb4db915f100d108f5912dc",
+            "school_name": "Wolfson College",
+            "school_slug": "university-of-oxford-wolfson-college",
+            "name": "Experimental Psychology",
+            "degree": ["Masters"],
+            "tuition": {
+              "currency": "GBP",
+              "value": 27460
+            },
+            "sacm_approved": false,
+            "duration": 1095,
+            "application_deadlines": [
+              {
+                "year": 2023,
+                "months": []
+              },
+              {
+                "year": 2024,
+                "months": [3]
+              },
+              {
+                "year": 2025,
+                "months": [3]
+              },
+              {
+                "year": 2026,
+                "months": [3]
+              }
+            ],
+            "has_applied": false,
+            "is_application_deletable": false,
+            "is_shortlisted": false
+          },
+          {
+            "school_id": "5fb4d86d5f100d108f58740d",
+            "course_id": "5fb4db915f100d108f5912dd",
+            "school_name": "Wolfson College",
+            "school_slug": "university-of-oxford-wolfson-college",
+            "name": "Film Aesthetics",
+            "degree": ["Masters"],
+            "tuition": {
+              "currency": "GBP",
+              "value": 25900
+            },
+            "sacm_approved": false,
+            "duration": 730,
+            "application_deadlines": [
+              {
+                "year": 2023,
+                "months": []
+              },
+              {
+                "year": 2024,
+                "months": [6, 3]
+              },
+              {
+                "year": 2025,
+                "months": [6, 3]
+              },
+              {
+                "year": 2026,
+                "months": [6, 3]
+              }
+            ],
+            "has_applied": false,
+            "is_application_deletable": false,
+            "is_shortlisted": false
+          }
+        ]
+      }
+    ],
+    "total_courses_count": 293320,
+    "total": 4060
+  },
+  "status_code": 200
+}
