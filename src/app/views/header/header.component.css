@@ -30,6 +30,7 @@ li.nav-item {
   top: 0;
   background-color: white;
   border-bottom: 1px;
+  z-index:999
 }
 .dropdown-toggle {
   font-weight: 500;
@@ -42,3 +43,20 @@ li.nav-item {
   background-color: dodgerblue;
   color: white;
 }
+
+.dropdown-menu{
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+  margin-top:0px !important;
+  width:100% !important;
+}
+
+.dropdown {
+  position:static !important;
+}
+
+.dropdown-menu .dropdown-item a{
+  display:block;
+  width:100%;
+  min-width: fit-content;
+}
+

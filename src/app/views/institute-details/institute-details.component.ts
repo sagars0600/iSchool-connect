@@ -4,10 +4,14 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   selector: 'app-institute-details',
   templateUrl: './institute-details.component.html',
   styleUrls: ['./institute-details.component.css'],
+
 })
 export class InstituteDetailsComponent implements OnInit {
   totalCourseCount:any;
   totalNumber:any;
+  lists:any;
+  panelOpenState = false;
+  schools:any
   constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
@@ -18,6 +22,12 @@ export class InstituteDetailsComponent implements OnInit {
     this.http.get('../../../assets/institure.json').subscribe((data:any) =>{
       this.totalCourseCount = data.data.total_courses_count;
       this.totalNumber = data.data.total;
+      this.lists = data.data.results;
+      this.lists.map((x:any) =>{
+        this.schools = x.courses;
+        console.log(this.schools);
+      })
+      console.log(this.lists);
     })
   }
 }

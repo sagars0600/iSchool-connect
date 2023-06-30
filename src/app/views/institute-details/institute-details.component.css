@@ -26,3 +26,120 @@
   pointer-events: none;
   color: #aaa;
 }
+
+.example-section {
+  margin-top: 10px;
+}
+
+.example-section {
+  max-height: 20vh;
+  overflow: auto;
+}
+
+.background {
+  background-color: #f3f5f7;
+}
+
+.fa-star,
+.fa-user {
+  color: dodgerblue;
+}
+
+.item-list {
+  display: flex;
+}
+
+.circle:before {
+  content: " \25CF";
+  font-size: 20px;
+  color: gray;
+}
+
+.institute-list {
+  background: #fff;
+  box-shadow: 0 0 16px #cccccc4d;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.3s ease;
+  padding: 1rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.main-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #484848;
+  word-break: break-word;
+}
+
+.cityLocate {
+  font-size: 15px;
+}
+
+.fa-map-marker {
+  color: gray;
+}
+
+.label {
+  font-size: 12px;
+  color: grey;
+}
+
+.btn-apply {
+  background-color: dodgerblue;
+}
+
+.btn-apply:hover {
+  background-color: white;
+  color: dodgerblue;
+  border-color: dodgerblue;
+}
+
+.btn-fav {
+  background-color: transparent;
+  color: black;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.info-plans {
+  display: flex;
+  justify-content: space-between;
+}
+
+.desc-list {
+  background: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0.5rem 1rem 0.75rem;
+  margin: 0 0.25rem 1rem;
+  cursor: pointer;
+}
+
+.icons-color{
+  color: dodgerblue;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.title-univeristy{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #484848;
+}
+
+.text-change{
+  color: #787878;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+}

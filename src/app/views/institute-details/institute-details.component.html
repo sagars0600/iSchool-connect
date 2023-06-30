@@ -1,23 +1,192 @@
-<div class="container">
-  <div class="row contain">
-    <div class="col-md-12">
-      <p class="simple-title">
-        <i class="fa fa-home" aria-hidden="true"></i>
-        <i class="fa fa-angle-right mx-2" aria-hidden="true"></i> Explore
-        Schools
-      </p>
-      <div class="main">
-        <div class="form-group has-search">
-          <span class="fa fa-search form-control-feedback"></span>
-          <input
-            type="text"
-            class="form-control"
-            placeholder="Search for an Institue or a course"
-          />
+<div class="background">
+  <div class="container">
+    <div class="row contain">
+      <div class="col-md-12 mt-4">
+        <p class="simple-title">
+          <i class="fa fa-home" aria-hidden="true"></i>
+          <i class="fa fa-angle-right mx-2" aria-hidden="true"></i> Explore
+          Schools
+        </p>
+        <div class="main">
+          <div class="form-group has-search">
+            <span class="fa fa-search form-control-feedback"></span>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search for an Institue or a course"
+            />
+          </div>
+          <p style="margin-top: 15px">
+            You found <b>{{ totalNumber }}</b> institutes and
+            <b>{{ totalCourseCount }}</b> courses
+          </p>
         </div>
-        <p style="margin-top: 15px;">You found <b>{{totalNumber}}</b> institutes and <b>{{totalCourseCount}}</b> courses</p>
+        <hr />
       </div>
-      <hr>
+    </div>
+    <div class="row contain">
+      <div class="col-md-4">
+        <mat-accordion>
+          <mat-expansion-panel
+            (opened)="panelOpenState = true"
+            (closed)="panelOpenState = false"
+          >
+            <mat-expansion-panel-header>
+              <mat-panel-title> Degrees </mat-panel-title>
+            </mat-expansion-panel-header>
+            <section class="example-section">
+              <p><mat-checkbox>Master</mat-checkbox></p>
+              <p><mat-checkbox>Bachelors</mat-checkbox></p>
+              <p><mat-checkbox>Doctrate</mat-checkbox></p>
+              <p><mat-checkbox>Associate</mat-checkbox></p>
+              <p><mat-checkbox>Diploma</mat-checkbox></p>
+              <p><mat-checkbox>Post Graduate Diploma</mat-checkbox></p>
+              <p><mat-checkbox>Undergraduate Certificate</mat-checkbox></p>
+              <p><mat-checkbox>Graduate Certificate</mat-checkbox></p>
+              <p><mat-checkbox>Post Graduate Certificate</mat-checkbox></p>
+            </section>
+          </mat-expansion-panel>
+        </mat-accordion>
+        <hr />
+        <mat-accordion>
+          <mat-expansion-panel
+            (opened)="panelOpenState = true"
+            (closed)="panelOpenState = false"
+          >
+            <mat-expansion-panel-header>
+              <mat-panel-title> Disciplines </mat-panel-title>
+            </mat-expansion-panel-header>
+            <section class="example-section">
+              <p><mat-checkbox>Agriculture</mat-checkbox></p>
+              <p><mat-checkbox>Anthropology and Archaeology</mat-checkbox></p>
+              <p><mat-checkbox>Architecture</mat-checkbox></p>
+              <p><mat-checkbox>Arts</mat-checkbox></p>
+              <p><mat-checkbox>Biology</mat-checkbox></p>
+              <p><mat-checkbox>Business and Management</mat-checkbox></p>
+              <p><mat-checkbox>Chemistry</mat-checkbox></p>
+              <p><mat-checkbox>Computer Science</mat-checkbox></p>
+              <p><mat-checkbox>Design</mat-checkbox></p>
+              <p><mat-checkbox>Geography</mat-checkbox></p>
+              <p>
+                <mat-checkbox>Hospitality, Leisure and Tourism</mat-checkbox>
+              </p>
+              <p><mat-checkbox>Chemistry</mat-checkbox></p>
+              <p><mat-checkbox>Interdisciplinary Studies</mat-checkbox></p>
+              <p><mat-checkbox>Philosophy</mat-checkbox></p>
+              <p><mat-checkbox>Medicine</mat-checkbox></p>
+              <p><mat-checkbox>Military science</mat-checkbox></p>
+            </section>
+          </mat-expansion-panel>
+        </mat-accordion>
+        <hr />
+        <mat-accordion>
+          <mat-expansion-panel
+            (opened)="panelOpenState = true"
+            (closed)="panelOpenState = false"
+          >
+            <mat-expansion-panel-header>
+              <mat-panel-title> Partnership Type </mat-panel-title>
+            </mat-expansion-panel-header>
+            <section class="example-section">
+              <p><mat-checkbox>Non Partner</mat-checkbox></p>
+
+              <p><mat-checkbox>Partner</mat-checkbox></p>
+            </section>
+          </mat-expansion-panel>
+        </mat-accordion>
+        <hr />
+      </div>
+      <div class="col-md-8">
+        <div class="institute-list" *ngFor="let list of lists">
+          <div class="item-list">
+            <div class="col-md-2">
+              <img [src]="list.logo" alt="" width="120" height="120" />
+            </div>
+            <div class="col-md mx-3">
+              <div class="first-info">
+                <h3 class="main-title">{{ list.name }}</h3>
+                <div class="location d-flex">
+                  <div>
+                    <p class="cityLocate">
+                      <i class="fa fa-map-marker" aria-hidden="true"></i>
+                      {{ list.address.city }}, {{ list.address.state }}
+                      <span class="circle"></span> {{ list.address.country }}
+                    </p>
+                  </div>
+                </div>
+                <div class="ranks d-flex">
+                  <div class="col-md-3">
+                    <div class="rank-details d-flex">
+                      <div class="info">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                      <div class="data-value mx-2">
+                        <div class="value">{{ list.rank.isc_global.min }}</div>
+                        <p class="label">iSC Rank</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-5">
+                    <div class="rank-details d-flex">
+                      <div class="info">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                      </div>
+                      <div class="data-value mx-2">
+                        <div class="value">
+                          {{ list.stats.acceptance_rate }}%
+                        </div>
+                        <p class="label">Acceptance Rate:</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="second-info">
+                <div class="desc-list" *ngFor="let school of list.courses">
+                  <div class="box" >
+
+                      <h4 class="title-univeristy">{{school.school_name}}</h4>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="study">
+                            <p>
+                              <i class="fa fa-building-o icons-color" aria-hidden="true"></i>
+                              <span class="text-change">{{school.name}}</span>
+                            </p>
+                          </div>
+                          <div class="info-plans">
+                            <p>
+                              <i class="fa fa-graduation-cap icons-color" aria-hidden="true"></i>
+                              <span class="text-change">{{school.degree}}</span>
+                            </p>
+                            <p>
+                              <i class="fa fa-usd icons-color" aria-hidden="true"></i>
+                              <span class="text-change">{{school.tuition.value}} USD</span>
+                            </p>
+                            <p>
+                              <i class="fa fa-calendar icons-color" aria-hidden="true"></i>
+                              <span class="text-change">4 years</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-md">
+                          <div class="btns">
+                            <button class="btn btn-fav">
+                              <i class="fa fa-heart-o" aria-hidden="true"></i> Add
+                              to favorite
+                            </button>
+                            <button class="btn btn-apply">Apply</button>
+                          </div>
+                        </div>
+                      </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
