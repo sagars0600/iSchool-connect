@@ -89,6 +89,7 @@
 }
 
 .btn-apply {
+  color: white;
   background-color: dodgerblue;
 }
 
@@ -143,3 +144,4 @@
   font-size: 13px;
   line-height: 16px;
 }
+
