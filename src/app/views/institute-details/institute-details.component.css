@@ -67,6 +67,9 @@
   margin-bottom: 2rem;
 }
 
+.institute-list:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
 .main-title {
   font-weight: 400;
   font-size: 18px;
@@ -122,13 +125,13 @@
   cursor: pointer;
 }
 
-.icons-color{
+.icons-color {
   color: dodgerblue;
   margin-right: 5px;
   font-weight: bold;
 }
 
-.title-univeristy{
+.title-univeristy {
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -136,7 +139,7 @@
   color: #484848;
 }
 
-.text-change{
+.text-change {
   color: #787878;
   font-size: 14px;
   font-style: normal;
@@ -145,22 +148,20 @@
   line-height: 16px;
 }
 
-
-.mat-expansion-panel-header{
+.mat-expansion-panel-header {
   background-color: #f3f5f7 !important;
 }
 
-.mat-expansion-panel{
+.mat-expansion-panel {
   box-shadow: none !important;
   border-bottom: 1rem;
 }
-
 
 ::ng-deep .mat-expansion-panel-body {
   background-color: #f3f5f7 !important;
 }
 
-hr{
+hr {
   margin: 0rem !important;
 }
 .mat-checkbox .mat-checkbox-frame {
@@ -172,17 +173,33 @@ hr{
 }
 
 .mat-expansion-panel-header-title {
-  color: #3c4858 !important
+  color: #3c4858 !important;
 }
 
-.panel-desc{
+.panel-desc {
   margin-bottom: 0rem;
 }
 
-.mat-mdc-checkbox .mdc-form-field{
+.mat-mdc-checkbox .mdc-form-field {
   color: gray !important;
 }
 
-.mdc-form-field{
+.mdc-form-field {
   color: gray !important;
+}
+
+.view-all {
+  box-shadow: 0 2px 6px #0000001a;
+  border-radius: 3px;
+  padding: 0.5rem;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: dodgerblue;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: -1.5rem;
+  cursor: pointer;
+  user-select: none;
+  background-color: rgb(191, 230, 243)
 }
