@@ -170,3 +170,19 @@ hr{
 .mat-checkbox-checked .mat-checkbox-background {
   transform: scale(2);
 }
+
+.mat-expansion-panel-header-title {
+  color: #3c4858 !important
+}
+
+.panel-desc{
+  margin-bottom: 0rem;
+}
+
+.mat-mdc-checkbox .mdc-form-field{
+  color: gray !important;
+}
+
+.mdc-form-field{
+  color: gray !important;
+}
