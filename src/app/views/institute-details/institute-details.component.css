@@ -145,3 +145,28 @@
   line-height: 16px;
 }
 
+
+.mat-expansion-panel-header{
+  background-color: #f3f5f7 !important;
+}
+
+.mat-expansion-panel{
+  box-shadow: none !important;
+  border-bottom: 1rem;
+}
+
+
+::ng-deep .mat-expansion-panel-body {
+  background-color: #f3f5f7 !important;
+}
+
+hr{
+  margin: 0rem !important;
+}
+.mat-checkbox .mat-checkbox-frame {
+  transform: scale(2);
+}
+
+.mat-checkbox-checked .mat-checkbox-background {
+  transform: scale(2);
+}

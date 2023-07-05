@@ -3,6 +3,29 @@ body {
   overflow-x: hidden;
 }
 
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+* {
+  scrollbar-width: auto;
+  scrollbar-color: 	#989898  #DCDCDC;
+}
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+*::-webkit-scrollbar {
+  width: 9px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #DCDCDC;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #989898;
+  border-radius: 5px;
+  border: 2px solid #DCDCDC;
+}

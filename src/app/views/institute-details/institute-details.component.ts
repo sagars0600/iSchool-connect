@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { InstituteServiceService } from 'src/app/services/institute-service.service';
 @Component({
   selector: 'app-institute-details',
   templateUrl: './institute-details.component.html',
@@ -20,21 +20,33 @@ export class InstituteDetailsComponent implements OnInit {
   philosophyCheckboxSelected: any;
   filteredLists: any[] = [];
   showFilteredData: boolean = false;
-  constructor(private http: HttpClient) {}
+  constructor(private httpService: InstituteServiceService) {}
 
   ngOnInit(): void {
     this.getAllList();
   }
 
   getAllList() {
-    this.http.get('../../../assets/institure.json').subscribe((data: any) => {
+    this.httpService.getAllInstituteList().subscribe((data: any) => {
       this.totalCourseCount = data.data.total_courses_count;
       this.totalNumber = data.data.total;
       this.lists = data.data.results;
+      this.filteredLists = this.lists.slice();
       this.lists.map((x: any) => {
         this.schools = x.courses;
       });
+
     });
+  }
+
+  filterList(event: any) {
+    const input = event.target.value;
+    console.log(input)
+    this.filteredLists = this.lists.filter((item: any) => {
+      const instituteName = item.name.toLowerCase();
+      return instituteName.includes(input.toLowerCase());
+    });
+    this.showFilteredData = true;
   }
 
   onChange() {
